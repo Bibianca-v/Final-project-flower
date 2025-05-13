@@ -1,0 +1,126 @@
+*{ 
+    margin:0;
+    padding:0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.356),rgba(247, 108, 175, 0.295)),url(images/2702fa4326e523586a66fab00e838af5.jpg);
+background-position:center;
+background-size:cover;
+position:relative;
+}
+nav{
+    display: flex;
+    padding: 2% 2%;
+    justify-content:space-between;
+    align-items: center;
+}
+nav img{
+    width: 180px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color:#ff3298;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height:2px ;
+    background: #eb2376c4;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.textbox{
+    width: 90%;
+    color: aliceblue;
+    Position:absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textbox h1{
+    font-size:62px ;
+}
+.textbox p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color:aliceblue;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #ff5199;
+    background:  #ff5199;
+    transition: 1s;
+}
+/*-----------flowers and services----------*/
+
+.sub-header{
+    height:50vh;
+    width: 100%;
+    background-image: url("images/back fs.jpg") ;
+    text-align: center;
+    color: aliceblue;
+    background-size:cover ;
+}
+.sub-header h1{
+    margin-top:100px;   
+}
+.Flowersandservices{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.pink-btn{
+    border: 1px rgb(212, 122, 204);
+    background: transparent;
+    color: rgb(235, 133, 175);
+}
+
+#about-header{
+    background-image: url("images/04650492f9ea558b4ed2b867e314ebd6.jpg");
+}
+#contact-header{
+    background-image: url("images/2702fa4326e523586a66fab00e838af5.jpg");
+}
